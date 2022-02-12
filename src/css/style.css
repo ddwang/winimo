@@ -1,3 +1,10 @@
+body {
+	background-image: url('../images/bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
 .favicons-show {
 	--favicons-display: inline-block;
 }
