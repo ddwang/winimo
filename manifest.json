@@ -1,0 +1,35 @@
+{
+	"background": {
+		"persistent": false,
+		"scripts": [
+			"./src/background.js"
+		]
+	},
+	"browser_action": {
+		"default_popup": "./src/popup.html",
+		"default_title": "Winimo"
+	},
+	"chrome_url_overrides": {
+		"newtab": "./src/new-tab-page.html"
+	},
+	"description": "An elegant, minimal new tab page",
+	"homepage_url": "https://www.krismuniz.com/",
+	"icons": {
+		"128": "src/images/icon/icon_128.png",
+		"16": "src/images/icon/icon_16.png",
+		"32": "src/images/icon/icon_32.png",
+		"48": "src/images/icon/icon_48.png"
+	},
+	"key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhS/1aRw8QCbXYwKiPUTfnQ+LzijAMj91eJM7m73wphaVEBdgH5R+g6N7NA9Zx6IEhP8uDTiRPkZnaB4AMSt6+5xnyG9wH4xtyDk9adNFesKk4v13njHyue+cncAPC8fMe4KDYeJsyMOhYC2CW1dWy7NJ0HOxER8zfJdBZaECWArDXdrH1M8aqu2p3n048auxgC1ybKnXsj1PPb9gZboxUXf0lOw4Js11Be6bsIDDkZ/ZKjBdezkBmAFeHhjddnhNE5l3j7COqfEHn/DhUDJjAu5Kw2s0K5CurY22AO/NdMg6nmOWNZiK39EFEWn4N9wVIHLhCRaBFQ47FmGKZ7I2IwIDAQAB",
+	"manifest_version": 2,
+	"name": "Winimo",
+	"permissions": [
+		"bookmarks",
+		"storage",
+		"sessions",
+		"tabs",
+		"chrome://favicon/"
+	],
+	"update_url": "https://clients2.google.com/service/update2/crx",
+	"version": "1.4.1"
+}

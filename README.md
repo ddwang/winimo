@@ -1,2 +1,2 @@
 # winimo
- A customized version of the minimo chrome extension
+ A customized version of the Minimo chrome extension
